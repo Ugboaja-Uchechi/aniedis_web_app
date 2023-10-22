@@ -25,3 +25,29 @@
   background-repeat: no-repeat;
   background-position-x: -100px;
 }
+
+/* Testimonial Styling End */
+
+/* Alt Styling */
+
+.alt-container {
+  background-image: url(./images/hero_background.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 25rem -6rem;
+}
+
+.bg-img1 {
+  background-image: url(./images/adept_analyzer_img.png);
+  background-repeat: no-repeat;
+}
+
+.bg-img2 {
+  background-image: url(./images/lifelong_learner_img.png);
+  background-repeat: no-repeat;
+}
+
+.bg-img3 {
+  background-image: url(./images/team_player_img.png);
+  background-repeat: no-repeat;
+}
