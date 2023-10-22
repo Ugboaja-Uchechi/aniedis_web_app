@@ -8,3 +8,10 @@
   box-sizing: border-box;
   line-height: 1.5;
 }
+
+.google-image {
+  background-image: url(./images/ellipse1.svg), url(./images/ellipse2.svg), url(./images/ellipse3.svg), url(./images/google_devs.svg), url(./images/ellipse4.svg), url(./images/ellipse5.svg), url(./images/hero_background.svg);
+  background-size: auto, auto, auto, auto, auto, auto, contain;
+  background-repeat: no-repeat;
+  background-position: 60px 6rem, 70px 4rem, 25rem 26rem, 45rem 6rem, 51rem 20rem, 77rem 23rem, 29.4rem -10rem;
+}

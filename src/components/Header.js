@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactComponent as ArrowDown } from "../images/arrow_down.svg";
+import { ReactComponent as Chevron } from "../images/chevron.svg";
 
 const Header = () => {
   return (
@@ -12,7 +12,7 @@ const Header = () => {
           <p className="text-lg font-normal text-white uppercase opacity-50 pe-10">Who is Aniedi?</p>
           <div className="flex items-center">
             <p className="text-lg font-normal text-white uppercase opacity-50 pe-2">media</p>
-            <ArrowDown className="opacity-50" />
+            <Chevron className="opacity-50" />
           </div> 
         </div>
 
