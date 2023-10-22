@@ -1,7 +1,7 @@
 import Header from "../components/Header";
 import { ReactComponent as Arrow } from "../images/arrow.svg"
-
 import aniedi from "../images/aniedi.png"
+import Testimonial from "../components/Testimonial";
 
 const Home = () => {
   return (
@@ -20,6 +20,7 @@ const Home = () => {
           <img src={aniedi} alt="A face art of Aniedi Udo-Obong" />
         </div>
       </main>
+      <Testimonial />
     </>
 
   );
