@@ -25,6 +25,8 @@
   background-position-y: -8rem;
 }
 
+/* Discover Styling End */
+
 /* Testimonial Styling */
 
 .testimonial-container {
@@ -62,3 +64,13 @@
 }
 
 /* Alt Styling End */
+
+/* Article Styling */
+
+.article-container {
+  background-image: url(./images/hero_background.svg);
+  /* background-size: contain; */
+  background-repeat: no-repeat;
+  background-position-y: -10rem;
+  background-position-x: 4rem;
+}

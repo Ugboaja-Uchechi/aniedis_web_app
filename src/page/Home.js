@@ -6,6 +6,7 @@ import Testimonial from "../components/Testimonial";
 import siderectangle from "../images/side_rectangle.svg";
 import toprectangle from "../images/top_rectangle.svg";
 import Alt from "../components/Alt";
+import Articles from "../components/Articles";
 
 const Home = () => {
   return (
@@ -41,6 +42,7 @@ const Home = () => {
       </section>
       <Alt />
       <Testimonial />
+      <Articles />
     </>
 
   );
