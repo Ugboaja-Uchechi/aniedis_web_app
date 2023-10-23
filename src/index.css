@@ -16,6 +16,15 @@
   background-position: 60px 6rem, 70px 4rem, 25rem 26rem, 45rem 6rem, 51rem 20rem, 77rem 23rem, 29.4rem -10rem;
 }
 
+/* Discover Styling */
+.discover-container {
+  background-image: url(./images/hero_background.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: -25rem;
+  background-position-y: -8rem;
+}
+
 /* Testimonial Styling */
 
 .testimonial-container {
@@ -51,3 +60,5 @@
   background-image: url(./images/team_player_img.png);
   background-repeat: no-repeat;
 }
+
+/* Alt Styling End */
