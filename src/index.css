@@ -2,6 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face { 
+  font-family: "syne"; 
+  src: url("../public/assests/Syne-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face { 
+  font-family: "rubik"; 
+  src: url(../public/assests/Rubik-Regular.ttf); 
+  font-weight: 400;
+}
+
+@font-face { 
+  font-family: "rubik"; 
+  src: url(../public/assests/Rubik-SemiBold.ttf); 
+  font-weight: 600;
+}
+
+@font-face { 
+  font-family: "rubik"; 
+  src: url("../public/assests/Rubik-Bold.ttf");
+  font-weight: 700;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +37,7 @@
   background-image: url(./images/ellipse1.svg), url(./images/ellipse2.svg), url(./images/ellipse3.svg), url(./images/google_devs.svg), url(./images/ellipse4.svg), url(./images/ellipse5.svg), url(./images/hero_background.svg);
   background-size: auto, auto, auto, auto, auto, auto, contain;
   background-repeat: no-repeat;
-  background-position: 60px 6rem, 70px 4rem, 25rem 26rem, 45rem 6rem, 51rem 20rem, 77rem 23rem, 29.4rem -10rem;
+  background-position: calc(2rem + 2vw) calc(0rem + 5vw), calc(2rem + 4vw) calc(1rem + 2vw), calc(10rem + 25vw) calc(4rem + 30vw), calc(8rem + 35vw) calc(1rem + 3vw), 51rem 20rem, 77rem 23rem, 29.4rem -10rem;
 }
 
 /* Discover Styling */
@@ -48,7 +72,7 @@
   background-position: 25rem -6rem;
 }
 
-.bg-img1 {
+/* .bg-img1 {
   background-image: url(./images/adept_analyzer_img.png);
   background-repeat: no-repeat;
 }
@@ -56,12 +80,12 @@
 .bg-img2 {
   background-image: url(./images/lifelong_learner_img.png);
   background-repeat: no-repeat;
-}
+} */
 
-.bg-img3 {
+/* .bg-img3 {
   background-image: url(./images/team_player_img.png);
   background-repeat: no-repeat;
-}
+} */
 
 /* Alt Styling End */
 
