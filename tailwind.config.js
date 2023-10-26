@@ -22,7 +22,7 @@ module.exports = {
         large: 'calc(.5rem + 0.75vw)',
         herotext: 'calc(1rem + 3.5vw)',
         exploreh2: 'calc(.9rem + 3vw)',
-        
+        size32: 'calc(.25rem + 2vw)',
       },
       padding: {
         inlinepadding: 'calc(2rem + 2vw)',
@@ -31,6 +31,7 @@ module.exports = {
       },
       gridTemplateColumns: {
         threeColumns: 'repeat(auto-fit,minmax(170px,1fr))',
+        twoColumns: 'repeat(auto-fit,minmax(200px,1fr))',
       },
       
     },

@@ -5,9 +5,9 @@ import { ReactComponent as Arrow } from "../images/arrow.svg"
 
 const Articles = () => {
   return (
-    <section className="bg-[#1a1a1a] pl-inlinepadding py-20 grid grid-cols-2 justify-items-end article-container">
+    <section className="bg-[#1a1a1a] pl-inlinepadding py-20 grid grid-cols-twoColumns justify-items-end article-container">
       <div>
-        <h2 className="text-white font-extrabold text-[56px] w-2/3 mb-8 leading-none">Latest Blog Articles</h2>
+        <h2 className="text-white font-extrabold text-exploreh2 w-2/3 mb-8 leading-none font-syne">Latest Blog Articles</h2>
         <img src={MainImg} alt="A man giving a speech at the eket tech event" className="h-1/2" />
         <p className="mt-2 mb-1 font-normal text-white text-xtralarge">Tech Events</p>
         <h4 className="text-white font-extrabold text-[40px] mb-1">Eket Tech Day 2023</h4>
