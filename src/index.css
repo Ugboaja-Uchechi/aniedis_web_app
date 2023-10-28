@@ -15,6 +15,12 @@
 }
 
 @font-face { 
+  font-family: "syne"; 
+  src: url("../public/assests/Syne-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face { 
   font-family: "rubik"; 
   src: url(../public/assests/Rubik-Regular.ttf); 
   font-weight: 400;
