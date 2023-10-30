@@ -25,19 +25,22 @@ const Home = () => {
           <img src={aniedi} alt="A face art of Aniedi Udo-Obong" className="h-[calc(11rem + 25vw)]" />
         </div>
       </main>
-      <section className="bg-[#1a1a1a] px-exploreinline pt-20 flex items-center discover-container max-[660px]:flex-col">
-        <div className="grid max-[660px]:order-2">
+      <section className="bg-[#1a1a1a] px-exploreinline pt-20 flex items-center discover-container max-[660px]:flex-col max-[660px]:px-mobileinlinepadding max-[660px]:pt-12">
+        <div className="grid max-[660px]:order-2 max-[660px]:px-4 max-[660px]:mt-8">
           <div className="col-[1/5] row-[2/4]">
-            <img src={speaking} alt="Aniedi speaking at a conference" className="grayscale h-exploreimgheight w-exploreImage" />
+            <img src={speaking} alt="Aniedi speaking at a conference" className="grayscale h-exploreimgheight w-exploreImage max-[660px]:w-full max-[660px]:h-full" />
           </div>
-          <img src={siderectangle} alt="Rectangle with a rounded radius" className="col-[1/4] row-[3/5] z-[2] relative bottom-3.5 right-5 w-sideRectangle" />
-          <img src={toprectangle} alt="Rectangle with a rounded radius" className="col-[4] row-[2/4] z-[2] relative bottom-2.5" />
+          <img src={siderectangle} alt="Rectangle with a rounded radius" className="col-[1/4] row-[3/5] z-[2] relative bottom-3.5 right-5 w-sideRectangle max-[660px]:row-[3/4] max-[660px]:bottom-4 max-[660px]:right-4" />
+          <img src={toprectangle} alt="Rectangle with a rounded radius" className="col-[4] row-[2/4] z-[2] relative bottom-2.5 max-[660px]:w-mobileTopRectangle max-[660px]:left-16" />
         </div>
 
-        <div className="w-exploreh2width ps-explorestart max-[660px]:order-1 max-[660px]:text-center">
+        {/* Mobile Btn */}
+        <button className="uppercase text-white bg-[#030304] bg-opacity-50 border-white border border-opacity-50 px-6 py-3 rounded-3xl tracking-wide mt-8 text-mobileDiscoverBtn font-rubik font-semibold hidden max-[660px]:block max-[660px]:order-3">Discover more about me</button>
+
+        <div className="w-exploreh2width ps-explorestart max-[660px]:order-1 max-[660px]:text-center max-[660px]:ps-0 max-[660px]:w-full">
           <h2 className="text-white text-exploreh2 leading-tight font-syne max-[660px]:text-mobileSize24">Peel back the layers and explore my world....</h2>
-          <p className="font-normal font-rubik text-[#a8a8a8] text-large pt-4 max-[660px]:textmobileSize16">Aniedi Udo-Obong is a California-based Google Developer, Passionate about newbies, developers & startups.</p>
-          <button className="uppercase text-white bg-[#030304] bg-opacity-50 border-white border border-opacity-50 px-6 py-3 rounded-3xl tracking-wide mt-4 text-discoverBtn font-rubik max-[660px]:order-3">Discover more about me</button>
+          <p className="font-normal font-rubik text-[#a8a8a8] text-large pt-4 max-[660px]:text-mobileSize16">Aniedi Udo-Obong is a California-based Google Developer, Passionate about newbies, developers & startups.</p>
+          <button className="uppercase text-white bg-[#030304] bg-opacity-50 border-white border border-opacity-50 px-6 py-3 rounded-3xl tracking-wide mt-4 text-discoverBtn font-rubik max-[660px]:hidden">Discover more about me</button>
         </div>
       </section>
       <Alt />
