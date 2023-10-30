@@ -31,6 +31,7 @@ module.exports = {
         mobileHeroText: 'calc(0.5rem + 3vw)',
         mobileSize16: 'calc(0.5rem + 2.25vw)',
         mobileSize24: 'calc(0.5rem + 4vw)',
+        mobileArticleText: 'calc(0.7rem + 1vw)',
         exploreh2: 'calc(.5rem + 3.4vw)',
         size32: 'calc(.25rem + 2vw)',
         size40: 'calc(0.5rem + 2vw)',

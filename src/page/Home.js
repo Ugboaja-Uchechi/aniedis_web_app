@@ -25,7 +25,7 @@ const Home = () => {
           <img src={aniedi} alt="A face art of Aniedi Udo-Obong" className="h-[calc(11rem + 25vw)]" />
         </div>
       </main>
-      <section className="bg-[#1a1a1a] px-exploreinline pt-20 flex items-center discover-container max-[660px]:flex-col max-[660px]:px-mobileinlinepadding max-[660px]:pt-12">
+      <section className="bg-[#1a1a1a] px-exploreinline pt-20 flex items-center discover-container max-[660px]:flex-col max-[660px]:px-mobileinlinepadding max-[660px]:py-12">
         <div className="grid max-[660px]:order-2 max-[660px]:px-4 max-[660px]:mt-8">
           <div className="col-[1/5] row-[2/4]">
             <img src={speaking} alt="Aniedi speaking at a conference" className="grayscale h-exploreimgheight w-exploreImage max-[660px]:w-full max-[660px]:h-full" />
