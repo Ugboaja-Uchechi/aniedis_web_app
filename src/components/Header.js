@@ -3,7 +3,7 @@ import { ReactComponent as Chevron } from "../images/chevron.svg";
 
 const Header = () => {
   return (
-    <header className="bg-[#1a1a1a] flex justify-between items-center py-3.5 px-inlinepadding">
+    <header className="bg-[#1a1a1a] flex justify-between items-center py-3.5 px-inlinepadding max-[660px]:hidden">
       <div>
         <h4 className="text-xtralarge font-semibold text-white uppercase">aniedi udo-obong</h4>
       </div>

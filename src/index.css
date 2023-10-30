@@ -110,3 +110,13 @@
   background-position-y: -10rem;
   background-position-x: 4rem;
 }
+
+@media screen and (max-width: 660px) {
+  .google-image {
+    background-image: url(./images/hero_background.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: -25rem;
+    background-position-y: -8rem;
+  }
+}
